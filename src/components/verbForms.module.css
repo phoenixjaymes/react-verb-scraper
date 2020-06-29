@@ -1,0 +1,18 @@
+.form {
+  background-color: #A457BF;
+  border-radius: 4px;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+.grouped {
+  text-align: center;
+}
+
+.grouped p {
+  margin-bottom: 5px;
+}
+
+.grouped p span {
+  border-bottom: 1px dotted #333;
+}

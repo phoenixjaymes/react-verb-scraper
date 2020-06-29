@@ -1,0 +1,30 @@
+.heading {
+  text-align: center;
+}
+
+.formWrap {
+  margin: 0 auto 10px;
+  max-width: 360px;
+}
+
+.button {
+  display: block;
+  margin: 0 auto;
+  width: 200px;
+}
+
+@media (min-width: 544px) {
+  .formWrap {
+    display: grid;
+    grid-template-columns: repeat(1fr);
+  }
+}
+
+@media (min-width: 800px) {
+  .formWrap {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(3, 1fr);
+    max-width: 960px;
+  }
+}

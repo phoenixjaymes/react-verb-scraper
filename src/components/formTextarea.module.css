@@ -1,0 +1,22 @@
+.label {
+  display: block;
+  font-size: 1rem;
+  margin-bottom: 10px;
+}
+
+.textarea {
+  background: #ffedb9;
+  background-color: #fff;
+  border: 1px solid #38024D;
+  border-radius: 4px;
+  font-size: .9rem;
+  height: 60px;
+  margin-bottom: 5px;
+  margin-top: 5px;
+  padding: 0 5px;
+  width: 100%;
+}
+
+.textarea:focus {
+  background: #E3CCEB;
+}
